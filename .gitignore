@@ -1,0 +1,22 @@
+.idea/
+
+
+##db
+!var/mysql/dump
+var/mysql/dbdata/*
+!var/mysql/dbdata/.gitkeep
+var/lib
+##src
+src/*
+src/composer.json
+src/.git
+
+##
+info.txt
+backup/*
+traefik/var/*
+!traefik/var/.gitkeep
+
+##ignore auth.json file
+composer/auth.json
+
